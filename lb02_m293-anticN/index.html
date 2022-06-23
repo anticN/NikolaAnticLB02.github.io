@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./images/favicon-32x32.png">
+</head>
+
+<body>
+    <main>
+        <section class="col-1">
+            <img src="./images/icon-limousine.svg">
+            <h1>Limousine</h1>
+
+            <p class="fliesstext">Entscheiden Sie sich für eine Limousine, weil sie erschwinglich ist und wenig verbraucht. Ideal
+            für Fahrten in der Stadt oder für Ihren nächsten Roadtrip.</p>
+
+            <button class="button1">Mehr erfahren</button>
+        </section>
+        <section class="col-2">
+            <img src="./images/icon-suvs.svg">
+            <h1>SUVs</h1>
+
+            <p class="fliesstext">Nehmen Sie einen SUV wegen seines geräumigen Innenraums und seiner Leistung. Perfekt
+            für Ihren nächsten Familienurlaub und Ihre Offroad-Abenteuer.</p>
+
+            <button id="activeButton" class="button2">Mehr erfahren</button>
+            <script>document.getElementById("activeButton").onclick = callLink;
+
+                function callLink() {
+                    /*
+                    Leitet den Browser auf eine andere Webseite weiter
+                    */
+                    location.href = "https://youtu.be/dQw4w9WgXcQ";
+                 };</script>
+        </section>
+        <section class="col-3">
+            <img src="./images/icon-luxury.svg">
+            <h1>Luxuswagen</h1>
+
+            <p class="fliesstext">Fahren Sie mit den besten Automarken, ohne die überhöhten Preise. Genießen Sie den
+            Komfort eines Luxuswagens und kommen Sie mit Stil an.</p>
+
+            <button class="button3">Mehr erfahren</button>
+        </section>
+    </main>
+</body>
+
+</html>
